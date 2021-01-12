@@ -1,7 +1,7 @@
 # Styles
 Custom templates made in css and scss to make the web a better place.
 
-## Organisation
+## Organisation tree
 .
  * assets/< Name of the component >/ : images for the README.md
  * < Name of the component >
