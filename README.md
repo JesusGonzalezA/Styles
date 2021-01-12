@@ -5,8 +5,8 @@ Custom templates made in css and scss to make the web a better place.
 
 
 * assets/< Name of the component >/ : images for the README.md
-* <Name of the component> \
-    |                       \
+* < Name of the component > \
+     |                       \
     ├───css/                \
     ├───scss/               \
     ├───index.html          \
