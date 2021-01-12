@@ -1,0 +1,55 @@
+/*----------------------------------------------------------------------------*/
+/* SOCIAL MEDIA                                                               */
+/*----------------------------------------------------------------------------*/
+.contact__bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    left: 0;
+    position: fixed;
+    top: 40%;
+    z-index: 100;
+}
+/*----------------------------------------------------------------------------*/
+/* ICONS                                                                      */
+/*----------------------------------------------------------------------------*/
+.contact__bar > .contact__icon {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+    border-radius: 0 1rem 1rem 0;
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.15s;
+}
+.contact__bar > .contact__icon:hover {
+    color: #fff;
+    margin-right: 0px;
+    text-align: right;
+    text-decoration: none;
+}
+.contact__bar > #contact__github {
+    color: #fff;
+    background-color: #332b2b;
+}
+.contact__bar > #contact__linkedin {
+    background-color: #0e76a8;
+    color: #fff;
+}
+.contact__bar > #contact__google {
+    background-color: #fa1b1b;
+    color: #fff;
+}
+.contact__bar > #contact__twitter {
+    background-color: #00acee;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------*/
+/* RESPONSIVE                                                                 */
+/*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .contact__bar {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,76 @@
+/*----------------------------------------------------------------------------*/
+/*  COLORS                                                                    */
+/*----------------------------------------------------------------------------*/
+
+$white: #FFFFFF;
+$black: #332B2B;
+$green: rgb(0, 224, 68);
+$grey: rgb(50,50,50);
+$orange: rgb(250, 150, 27);
+$red: rgb(250, 27, 27);
+
+$opposite-color: $black;
+$background-color: $white;
+
+/*----------------------------------------------------------------------------*/
+/*  SOCIAL MEDIA                                                              */
+/*----------------------------------------------------------------------------*/
+.contact__bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2.0rem;
+    left: 0;
+    position: fixed;
+    top: 40%;
+    z-index: 100;
+}
+
+/*----------------------------------------------------------------------------*/
+/*  ICONS                                                                     */
+/*----------------------------------------------------------------------------*/
+
+.contact__icon {
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.15s;
+    
+    &:hover {
+        color:$white;
+        margin-right: 0px;
+        text-align: right;
+        text-decoration: none;
+    }
+
+    .contact__github {
+        background-color: $opposite-color;
+        color: $background-color;
+    }
+
+    .contact__linkedin {
+        background-color: #0e76a8;
+        color: $background-color;
+    }
+    
+    .contact__google {
+        background-color: $red;
+        color: $background-color;
+    }
+    
+    .contact__twitter {
+        background-color: #00acee ;
+        color: $background-color;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+/* RESPONSIVE                                                                 */
+/*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .contact__bar {
+        font-size: 1.5rem;
+    }
+}
