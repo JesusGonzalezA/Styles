@@ -1,0 +1,40 @@
+/*----------------------------------------------------------------------------*/
+/*  FULL SCREEN                                                               */
+/*----------------------------------------------------------------------------*/
+
+html, body {
+    margin: 0;
+}
+
+.loading__container {
+    align-items: center;
+    background-color: #5c62c5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+.loading__title {
+    color: white;
+}
+.loading__loader {
+    animation-duration: 2s;
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top: inherit solid #31368a;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+   }
+    to {
+        transform: rotate(360deg);
+   }
+}
