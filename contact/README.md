@@ -1,3 +1,3 @@
 # Interactive contact icons
 
-![](./images/Example.png)
+![](../assets/contact/Example.png)
