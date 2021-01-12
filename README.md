@@ -1,5 +1,5 @@
 # 🎨 Styles
-Custom templates made in css and scss to make the web a better place.
+Custom templates made in css and sass to make the web a better place.
 
 ## 🌳 Organisation tree 
 .
