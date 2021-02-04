@@ -25,7 +25,7 @@ html, body {
     animation-timing-function: linear;
     border: 10px solid white;
     border-radius: 50%;
-    border-top: inherit solid #31368a;
+    border-top: 10px solid #31368a;
     margin: 10px;
     height: 70px;
     width: 70px;
