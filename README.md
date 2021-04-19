@@ -8,6 +8,6 @@ Custom templates made in css and sass to make the web a better place.
    * css/
    * scss/
    * index.html
-   * README.me
+   * README.md
     
 ## ℹ️ This is a repository for personal purposes, but you can take a look at it and suggest some improvements!
